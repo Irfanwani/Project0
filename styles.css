@@ -9,7 +9,7 @@ body {
     background-size: auto;
     padding: 50px 0px 185px 10px;
     text-align: center;
-    width: 100%;
+    width: 99%;
     
 }
 
@@ -92,4 +92,164 @@ ul {
     font-size: 25px;
     font-weight: 400;
 
+}
+
+.introduction {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    font-size: 50px;
+    font-weight: 600;
+    color: orange;
+    box-shadow: 1px 1px 10px 0px black;
+}
+
+
+
+/*login form changes*/
+
+.login-form {
+
+    background-color: #222222;
+
+    text-align: center;
+
+    box-shadow: 10px 10px 0px 5px black;
+
+    margin: 100px 500px 0px 500px;
+
+    border-radius: 0%;
+
+    transform: translate3d(-10%, -10%);
+
+}
+
+
+
+.text {
+
+    color: orange;
+
+    font-size: 40px;
+
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    padding-top: 20px;
+
+}
+
+
+
+.login-form input[type = "email"], .login-form input[type = "password"] {
+
+    margin: 50px 0px 40px 0px;
+
+    background-color: black;
+
+    border: 0px;
+
+    padding: 10px 20px 10px 20px;
+
+    border: 2px solid skyblue;
+
+    border-radius: 20px;
+
+    color: white;
+
+    outline: none;
+
+    text-align: center;
+
+}
+
+
+
+.login-form input[type = "email"]:hover, .login-form input[type = "password"]:hover {
+
+    padding: 10px 50px 10px 50px;
+
+    border:2px solid indianred;
+
+    transition: 0.5s;
+
+}
+
+
+
+.login-form input[type = "email"]:focus, .login-form input[type = "password"]:focus {
+
+    padding: 10px 50px 10px 50px;
+
+    border:2px solid indianred;
+
+    transition: 0.25s;
+
+}
+
+
+
+
+
+
+
+#submit {
+
+    background-color: black;
+
+    margin-bottom: 40px;
+
+    border: 0px;
+
+    border: 2px solid green;
+
+    color: whitesmoke;
+
+    width: 100px;
+
+    border-radius: 20px;
+
+    padding: 10px 0px 10px 0px;
+
+    outline: none;
+
+}
+
+
+
+#submit:hover {
+
+    color: turquoise;
+
+    background-color: green;
+
+    box-shadow: 1px 1px 10px 0px turquoise;
+
+    border-color: skyblue;
+
+    transition: 0.5s;
+
+    cursor: pointer;
+
+}
+
+.container {
+    background-color: gray;
+    padding: 50px 0px 100px 0px;
+}
+
+/* services styles*/
+table {
+    border: 2px solid green;
+    width: 99%;
+    margin: 20px 50px 20px 10px;
+}
+
+table tr th, td {
+    border: 1px solid green;
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
 }
