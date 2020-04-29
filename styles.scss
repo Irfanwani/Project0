@@ -1,3 +1,13 @@
+@media screen and (max-width: 576px) {
+    .company-logo {
+        font-size: 30%;
+        font-weight: 400;
+        width: 50%;
+    }
+  }
+
+
+
 /*using a variable*/
 $shadow: 1px 1px 10px 0px black;
 .tag, #nav-bar, .company-logo, footer, .introduction{
@@ -93,6 +103,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    
 }
 
 #content a img {
@@ -275,11 +286,10 @@ table, tr, th, td {
 }
 
 
-
-@media (max-width: 576px) {
-    body {
-        font-size: 20px;
+@media screen and (max-width: 576px) {
+    .company-logo {
+        font-size: 30%;
         font-weight: 400;
-        
+        width: 50%;
     }
-}
+  }
