@@ -4,16 +4,14 @@
 
 /*nesting*/
 #nav-bar {
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyPAwCYCVB3ijmTucSpukEWp6KHnFuaFDaB2bnVLzCo3ouesEu&usqp=CAU);
   padding: 20px 0px 20px 0px;
   width: 100%; }
   #nav-bar a {
     margin: 10px 50px 10px 150px;
     text-decoration: none;
-    color: red;
+    color: gray;
     font-size: 20px;
     font-weight: 600;
-    box-shadow: 1px 1px 10px 1px white;
     padding: 5px 5px 5px 5px;
     border-radius: 20px;
     width: 100%; }
@@ -24,14 +22,6 @@
   border: 2px solid indianred;
   transition: 0.5s; }
 
-@media (min-width: 500px) {
-  #nav-bar a {
-    font-size: 20px;
-    font-weight: 400; }
-
-  footer {
-    font-size: 20px;
-    font-weight: 400; } }
 body {
   margin: 0px;
   padding: 0px;
@@ -50,7 +40,8 @@ body {
   background-size: auto;
   padding: 50px 0px 185px 10px;
   text-align: center;
-  width: 99%; }
+  max-width: 99%;
+  height: auto; }
 
 .ecom {
   font-size: 100px;
@@ -74,6 +65,7 @@ body {
   box-shadow: 1px 1px 10px 0px black;
   color: black;
   transition: 0.25s; }
+
 
 #content {
   display: grid;
@@ -179,4 +171,6 @@ table, tr, th, td {
   border-collapse: collapse;
   padding: 10px 10px 10px 10px; }
 
-/*# sourceMappingURL=styles.css.map */
+
+
+
