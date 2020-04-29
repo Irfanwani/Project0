@@ -66,7 +66,6 @@ body {
   color: black;
   transition: 0.25s; }
 
-
 #content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -110,16 +109,18 @@ ul {
 
 /*login form changes*/
 .login-form {
-  background-color: #222222;
+  background-color: black;
   text-align: center;
-  box-shadow: 10px 10px 0px 5px black;
-  margin: 100px 500px 0px 500px;
+  margin-top: 0px;
   border-radius: 0%;
+  border-bottom: 10px solid orangered;
   transform: translate3d(-10%, -10%); }
 
 .text {
   color: orange;
+  box-shadow: 1px 1px 10px 0px black;
   font-size: 40px;
+  background-color: green;
   font-weight: 500;
   text-transform: uppercase;
   padding-top: 20px; }
@@ -154,9 +155,10 @@ ul {
   transition: 0.5s;
   cursor: pointer; }
 
-.container {
-  background-color: gray;
-  padding: 50px 0px 100px 0px; }
+.login-pg {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQn7oqFL9-VGWtXh1iTGsnVK_V1O0bBMWo86UYWy76SRDAEbKWQ&usqp=CAU) no-repeat;
+  padding: 50px 0px 100px 0px;
+  background-size: cover; }
 
 /* services styles*/
 table {
@@ -171,6 +173,9 @@ table, tr, th, td {
   border-collapse: collapse;
   padding: 10px 10px 10px 10px; }
 
+@media (max-width: 576px) {
+  body {
+    font-size: 20px;
+    font-weight: 400; } }
 
-
-
+/*# sourceMappingURL=styles.css.map */
